@@ -1,0 +1,39 @@
+{
+  "name": "pharmacy-api-v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pm2": "pm2 start index.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "axios": "^1.7.7",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^2.2.2",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.6",
+    "csv-writer": "^1.6.0",
+    "date-fns": "^2.28.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "express-fileupload": "^1.5.1",
+    "googleapis": "^134.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mdb-cubes": "^0.1.1",
+    "minio": "^8.0.5",
+    "mongoose": "^6.12.0",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.3",
+    "node-schedule": "^2.1.1",
+    "nodemon": "^2.0.16",
+    "path": "^0.12.7",
+    "unzipper": "^0.12.5"
+  }
+}

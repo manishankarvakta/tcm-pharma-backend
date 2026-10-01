@@ -1,0 +1,8 @@
+node_modules
+uploads/category
+uploads/customer
+uploads/product
+uploads/user
+backups
+.env
+utility/google-service-account.json
